@@ -13,7 +13,7 @@ You'll need these commands:
 `backward (`distance in pixels`)`<br>
 `right (`degrees`)`<br>
 `left (`degrees`)`<br>
-[Click here for more Turtle commands](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTrees/turtleReference.pdf) <br>
+[Click here for more Turtle commands](https://lab.cs50.io/martybillingsleyucls/uclsPython/master/fractalTrees/turtleReference.pdf) <br>
 {% endspoiler %}
 
 {% spoiler "Algorithm" %}
@@ -72,11 +72,11 @@ In each `forward` and `backward` command, use the argument variable instead of a
 {% next  %}
 ## At the end of each branch, draw another tree 3/4 the size of the original
 Try to draw a tree like this:<br>
-![Tree](https://raw.githubusercontent.com/martybillingsley/images/master/tree3.png) <br>
+![Tree](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tree3.png) <br>
 <br>Note: think about when to stop!
 {% spoiler "Recursion Explained" %}
 Sometimes it is helpful to think of a recursive algorithm in terms of a diagram of function calls. This figure shows that the recursive calls are always made going to the left. The active functions are outlined in black, and the inactive function calls are in gray. The farther you go toward the bottom of the figure, the smaller the branches. The function finishes drawing one level at a time; once it is finished with the bottom left it moves to the bottom right, and so on.<br>
-![Recursion Tree](https://raw.githubusercontent.com/martybillingsley/images/master/treeRecursionDiagram.png) <br>
+![Recursion Tree](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/treeRecursionDiagram.png) <br>
 {% endspoiler %}
 <br>
 {% spoiler "Algorithm" %}
@@ -92,7 +92,7 @@ Turn right and go backward down the trunk<br>
 <br>
 {% spoiler "Problems?" %}
 Does your tree look like this?<br>
-![Tree gone wrong](https://raw.githubusercontent.com/martybillingsley/images/master/tree2.png) <br>
+![Tree gone wrong](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tree2.png) <br>
 Add another argument to the `drawTree()` function to indicate the depth of the tree.<br>
 Every time you draw another tree, make it smaller **and** reduce the depth by one.
 {% endspoiler %}
@@ -118,7 +118,7 @@ Every time you draw another tree, make it smaller **and** reduce the depth by on
 ## Add some variety to your tree (just for fun)
 
 Trees aren't symmetric in real life. Instead of always turning a set number of degrees (30 in the example), choose a random number between 10 and 40 each time you draw a new branch.
-![Random tree](https://raw.githubusercontent.com/martybillingsley/images/master/tree4.png) <br>
+![Random tree](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tree4.png) <br>
 {% spoiler "Notes" %}
 Import the random library:<br>
 `from random import *`<br>
@@ -127,7 +127,7 @@ Be sure to turn right the same amount you turn left<br>
 {% endspoiler %}
 
 Make the tree even more realistic. Set the turtle shape to 'turtle' and stamp a green leaf every time you draw a tree of depth 0.
-![Green tree](https://raw.githubusercontent.com/martybillingsley/images/master/tree5.png) <br>
+![Green tree](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tree5.png) <br>
 
 {% spoiler "Code" %}
  `if depth > 0:`<br>
@@ -139,7 +139,7 @@ Make the tree even more realistic. Set the turtle shape to 'turtle' and stamp a 
 {% endspoiler %}
 
 Even more realistic: make the branches brown, with the thickness depending on the depth (`depth*2` works well). Choose leaf colors at random from a list.
-![Fall tree](https://raw.githubusercontent.com/martybillingsley/images/master/tree6.png) <br>
+![Fall tree](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tree6.png) <br>
 
 {% spoiler "Code" %}
 Before drawing the trunk:<br>
