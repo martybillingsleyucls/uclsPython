@@ -4,11 +4,11 @@ A torn line fractal is a spacefilling curve that looks like a square has lots of
 ## Try drawing one torn line segment
 Write a function to draw one line segment.  As with the fractal trees, it's easiest to use a depth argument to control the complexity of the curve:
 
-depth 0: ![Cesaro Torn Line Segment depth 0](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine1.png) <br>
-depth 1: ![Cesaro Tornn Line Segment depth 1](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine2.png) <br>
-depth 2:![Cesaro Tornn Line Segment depth 2](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine3.png) <br>
-depth3: ![Cesaro Tornn Line Segment depth 3](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine4.png) <br>
-depth4: ![Cesaro Tornn Line Segment depth 4](https://raw.githubusercontent.com/martybillingsley/images/master/tornLine5.png) <br>
+depth 0: ![Cesaro Torn Line Segment depth 0](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tornLine1.png) <br>
+depth 1: ![Cesaro Tornn Line Segment depth 1](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tornLine2.png) <br>
+depth 2:![Cesaro Tornn Line Segment depth 2](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tornLine3.png) <br>
+depth3: ![Cesaro Tornn Line Segment depth 3](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tornLine4.png) <br>
+depth4: ![Cesaro Tornn Line Segment depth 4](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tornLine5.png) <br>
 
 <br>
 To run your program, type `python tornLine.py` in the terminal window at the bottom of your screen.<br>
@@ -18,7 +18,7 @@ You'll need these commands:<br>
 `forward (`distance in pixels`)`<br>
 `right (`degrees`)`<br>
 `left (`degrees`)`<br>
-[Click here for more Turtle commands](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTrees/turtleReference.pdf) <br>
+[Click here for more Turtle commands](https://lab.cs50.io/martybillingsleyucls/uclsPython/master/fractalTrees/turtleReference.pdf) <br>
 {% endspoiler %}
 
 {% spoiler "Algorithm" %}
@@ -51,5 +51,5 @@ draw a torn line segment 1/2 of the size<br>
 
 {% next  %}
 ## Put a whole square together
-Draw three torn line segments, turning the turtle after each one, so that they join up to make a square.<br>
-![Torn Square](https://raw.githubusercontent.com/martybillingsley/images/master/tornLineFull2.png) 
+Draw four torn line segments, turning the turtle after each one, so that they join up to make a square.<br>
+![Torn Square](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/tornLineFull2.png) 
