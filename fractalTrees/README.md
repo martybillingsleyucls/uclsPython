@@ -2,7 +2,7 @@
 ## Start with drawing a simple tree. 
 A tree is made of a trunk and branches. Write a `drawTree()` function that draws a simple tree with a trunk and two branches. The turtle must end up where it started, facing the way it was when it started.
 
-![Simple tree](https://raw.githubusercontent.com/martybillingsleyucls/images/master/tree1.png) 
+![Simple tree](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/images/master/tree1.png) 
 
 <br>
 To run your program, type `python tree.py` in the terminal window at the bottom of your screen.<br>
