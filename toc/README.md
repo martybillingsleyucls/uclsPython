@@ -3,7 +3,7 @@
 
 <br><br>
 # Fractals
-## [Fractals](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractals/)
+## [Introduction to Fractals](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractals/)
 ## [Trees](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTrees/)
 ## [Koch Triangles](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalKoch/)
 ## [Torn Lines](https://lab.cs50.io/martybillingsley/tinkRworks/master/fractalTornLine/) 
