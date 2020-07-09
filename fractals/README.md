@@ -5,7 +5,7 @@ The term *fractal* (from the Latin *fractus*, meaning “broken”) was coined b
 
 This can be demonstrated by looking at a tree (which you'll write code to draw). The tree has a branching structure, as shown in the image on the left. At the end of the trunk are two branches; at the end of each of those branches are two more branches. At the end of those branches are two more branches, and so on to infinity. If you zoom in to the end of one branch, as we do in the image on the right, you'll see that the end of a branch resembles a tree. This is what is meant by *self similarity*.
 
-![Tree Details](https://raw.githubusercontent.com/martybillingsleyucls/images/master/treeDetail.jpg)
+![Tree Details](https://raw.githubusercontent.com/martybillingsleyucls/uclsPython/master/images/treeDetail.jpg)
 
  <br><br>
 Fractals are more than a mathematical curiosity, but are found in nature and can be put to use:
@@ -25,7 +25,7 @@ Because fractals go on to infinity, they are drawn using recursion. If you haven
 If you haven't used turtles, warm up with this Turtle Example.
 <br><br>
 ## Fractal Challenges
-[Trees](https://lab.cs50.io/martybillingsleyucls/tinkRworks/uclsPython/fractalTrees/) <br>
+[Trees](https://lab.cs50.io/martybillingsleyucls/uclsPython/master/fractalTrees/) <br>
 [Koch Snowflake](https://lab.cs50.io/martybillingsleyucls/uclsPython/master/fractalKoch/) <br>
 [Torn Line Fractal](https://lab.cs50.io/martybillingsleyucls/uclsPython/master/fractalTornLine/) <br>
 Dragon Curve<br>
